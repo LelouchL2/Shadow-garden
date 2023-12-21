@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/ui/Navbar";
+import Navbar from "@/components/Navbar";
 import { chillax, satoshi } from "@/font/font";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
         )}
       >
         <Navbar />
-        {children}
+        <div className="container max-w-7xl mx-auto pt-12">{children}</div>
       </body>
     </html>
   );

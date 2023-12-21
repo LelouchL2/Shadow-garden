@@ -20,7 +20,9 @@ const Banner = () => {
       </button>
       <div className="overflow-visible h-full col-start-3 col-end-4 row-start-1 row-end-4">
         <Image
-          width={980}
+          width={1000}
+          height={560}
+          sizes="(min-width: 1060px) 1000px, calc(94.59vw + 16px)"
           className="absolute bottom-0 right-0"
           // className="w-[1000px] object-cover"
           src={bannerImg}

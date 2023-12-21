@@ -24,7 +24,8 @@ export default function RootLayout({
         )}
       >
         <Navbar />
-        <div className="container max-w-7xl mx-auto pt-12">{children}</div>
+        {/* Add max width */}
+        <div className="max-w-[2000px] mx-auto">{children}</div>
       </body>
     </html>
   );

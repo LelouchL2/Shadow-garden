@@ -2,9 +2,10 @@ import Image from "next/image";
 import logo from "../../public/images/Main-Logo-Small.png";
 import { Search } from "lucide-react";
 import { Button } from "./ui/Button";
+
 const Navbar = () => {
   return (
-    <div className="fixed top-0 inset-x-0 h-fit z-10 py-0 max-w-[2000px] mx-auto">
+    <div className="fixed top-0 inset-x-0 h-fit z-10 py-0 max-w-[2000px] mx-auto px-10">
       <ul className="flex items-center justify-around gap-2 text-white text-xl ">
         <li className="hover:text-primary hover:underline cursor-pointer">
           Home
